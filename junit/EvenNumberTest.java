@@ -9,6 +9,7 @@ class EvenNumberTest {
 	@Test
 	void test() {
 		assertEquals(true, EvenNumber.FindEvenOddNumber());
+		assertTrue((EvenNumber.DivisibleByNumber()) == 0);
 	}
 
 }

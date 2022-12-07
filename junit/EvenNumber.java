@@ -1,7 +1,7 @@
 package com.junit;
 
 public class EvenNumber {
-	static int number = 5;
+	static int number = 6;
 	public static boolean FindEvenOddNumber() {
 		if(number % 2 == 0) {
 			return true;
@@ -9,5 +9,8 @@ public class EvenNumber {
 		else {
 			return false;
 		}
+	}
+	public static int DivisibleByNumber() {
+		return number%6;
 	}
 }
